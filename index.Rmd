@@ -3,7 +3,7 @@ title: "A Databservatory for Human Behavior"
 author: "Rick O. Gilmore"
 affiliation: "Penn State"
 date: "`r Sys.time()`"
-bibliography: bib/soda.bib
+bibliography: bib/cogbag.bib
 output:
   ioslides_presentation:
     css: css/gilmore-ioslides.css
@@ -13,6 +13,7 @@ output:
     smart: true
     smaller: false
     self_contained: true
+    logo: img/psu-logo.png
 ---
 
 ##  {.flexbox .vcenter}
@@ -44,11 +45,22 @@ output:
 <img src="img/psych-harder-2.jpg" width=800px/>
 </div>
 
+---
+
+<div class="centered">
+<video width="600" height="400" controls>
+  <source src="https://nyu.databrary.org/slot/11652/307774,376273/asset/47075/download?inline=true" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+
+Adolph, K., Tamis-LeMonda, C. & Gilmore, R.O. (2016). PLAY Project: Webinar discussions on protocol and coding. Databrary. Retrieved February 17, 2017 from <https://nyu.databrary.org/volume/232>
+
 ## Outline
 
 - We've got problems...
 - Small-scale solutions...
-- Bigger, I mean BIG, solutions
+- Bigger, I mean HYUUGE, solutions
 
 # Problems facing behavioral science
 
@@ -120,9 +132,9 @@ output:
 
 ## Errors/omissions in data
 
-- Carmen Reinhart and Kenneth Rogoff paper, <http://www.nber.org/papers/w15639.pdf?new_window=1>
-- Omitted data in Excel spreadsheet used to model effect of public debt on econcomic growth. <https://www.bloomberg.com/news/articles/2013-04-18/faq-reinhart-rogoff-and-the-excel-error-that-changed-history>
-- Error only found when data were shared.
+- C. Reinhart and K. Rogoff paper, <http://www.nber.org/papers/w15639.pdf?new_window=1>
+    - Omitted data in Excel spreadsheet used to model effect of public debt on econcomic growth. <https://www.bloomberg.com/news/articles/2013-04-18/faq-reinhart-rogoff-and-the-excel-error-that-changed-history>
+    - Error only found when data were shared.
 
 ## Reproducibility "Crisis"
 
@@ -143,18 +155,28 @@ output:
 [[@collaboration_estimating_2015]](http://doi.org/10.1126/science.aac4716)
 </div>
 
-## So, did the studies replicate?
+## So, did the studies replicate? [[@gilbert_comment_2016]](http://doi.org/10.1126/science.aad7243)
 
-- [[@gilbert_comment_2016]](http://doi.org/10.1126/science.aad7243)
 - Samples not equal
     + Sampling error differences predicts < 100% reproducibility
 
----
+## So, did the studies replicate? [[@gilbert_comment_2016]](http://doi.org/10.1126/science.aad7243)
 
 - Protocols not identical
     + Only 69% of original PIs "endorsed" replication protocol. Replication rate 4x higher (59.7% vs. 15.4%) in studies with endorsed protocol.
     + What is CI of *expected* effect sizes given sample/methodological variability? [Many Labs project](https://osf.io/wx7ck/wiki/home/)
-- [[@collaboration_estimating_2015]](http://doi.org/10.1126/science.aac4716) *"...seriously underestimated reproducibility of psychological science."*
+    
+---
+
+<div class="centered">
+<img src="https://mfr.osf.io/export?url=https://osf.io/5mxby/?action=download%26direct%26mode=render&initialWidth=828&childId=mfrIframe&format=1200x1200.jpeg">
+
+[Many Labs project](https://osf.io/wx7ck/wiki/home/)
+</div>
+
+## So, did the studies replicate? [[@gilbert_comment_2016]](http://doi.org/10.1126/science.aad7243)
+    
+[[@collaboration_estimating_2015]](http://doi.org/10.1126/science.aac4716) *"...seriously underestimated reproducibility of psychological science."*
 
 ## Not just social & behavioral science
 
@@ -167,7 +189,14 @@ output:
 <iframe src="http://www.nature.com/news/cancer-reproducibility-project-releases-first-results-1.21304">
 </iframe>
 
-## A "significant" or "slight" crisis
+## Is there a reproducibility crisis?
+
+- Yes, a significant crisis.
+- Yes, a slight crisis.
+- No, there is no crisis.
+- Don't know.
+
+## Is there a reproducibility crisis?
 
 <div class="centered">
 <a href="http://www.nature.com/polopoly_fs/7.36716.1469695923!/image/reproducibility-graphic-online1.jpeg_gen/derivatives/landscape_630/reproducibility-graphic-online1.jpeg" height=450px>
@@ -223,10 +252,26 @@ Results from a survey of 1,500 scientists by Nature in 2016.
 <div class="centered">
 [[@goodman_what_2016]](http://doi.org/10.1126/scitranslmed.aaf5027)
 </div>
+
 ## Sampling challenges
 
 - Much (lab-based) data collected are from **W**estern, **E**ducated **I**ndustrialized, **R**ich, **D**emocratic (WEIRD) populations [[@henrich_weirdest_2010]](http://doi.org/10.1017/S0140525X0999152X)
-- Studies underpowered [[@maxwell_persistence_2004]](http://doi.org/10.1037/1082-989X.9.2.147)
+- Even on [Mechanical Turk](http://www.behind-the-enemy-lines.com/2015/04/demographics-of-mechanical-turk-now.html)
+
+---
+
+<div class="centered">
+<img src="http://2.bp.blogspot.com/-oHtEYvTo2yg/VSLSom0-ceI/AAAAAAADQcM/CWV-eGqvLhw/s1600/hh-income.PNG">
+
+<img src="http://2.bp.blogspot.com/--0AEM5IEPLo/VSLSohy8qtI/AAAAAAADQcI/UErSy-VIvk0/s1600/countries.PNG">
+
+See also: <http://demographics.mturk-tracker.com/>
+</div>
+
+## Studies are underpowered
+
+- Maxwell, S. E. (2004). The Persistence of Underpowered Studies in Psychological Research: Causes, Consequences, and Remedies. Psychological Methods, 9(2), 147–163. <https://doi.org/10.1037/1082-989X.9.2.147>
+- Ioannidis, J. P. A. (2005). Why Most Published Research Findings Are False. PLOS Medicine, 2(8), e124. <https://doi.org/10.1371/journal.pmed.0020124>
 
 <!-- Scrolling page -->
 <!-- http://stackoverflow.com/q/38260799 -->
@@ -260,6 +305,10 @@ slides > slide:not(.nobackground):after {
 <img src="http://lh3.googleusercontent.com/RoMMyCauMaIccoJZEBWPiBi_l9NQL4AAFYEm8orBh9wMruI6oE6Qw_voIHcWAoVptTUR_uLWiz4eMnZt5TfUCcd8WIwfARQGPE4vWt8C" height=225pix>
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Facebook_New_Logo_(2015).svg/1280px-Facebook_New_Logo_(2015).svg.png" height=225px>
+</div>
+
+<div class="notes">
+Google and Facebook.
 </div>
 
 ## Poor man
@@ -345,6 +394,18 @@ Image of despairing angel.
 <img src="img/higginson-munafo.jpg">
 
 [[@higginson_current_2016]](http://10.1371/journal.pbio.2000995)
+</div>
+
+## Psychology is harder than physics {.flexbox .vcenter}
+
+<div class="centered">
+<img src="img/psych-harder-1.jpg" width=800px/>
+</div>
+
+## Psychology is harder than physics {.flexbox .vcenter}
+
+<div class="centered">
+<img src="img/psych-harder-2.jpg" width=800px/>
 </div>
 
 # Small-scale solutions
@@ -684,7 +745,7 @@ And that no single method we use operates across the spatial and temporal scales
 The Databservatory will empower the evaluation and analyses of data streams at multiple levels of spatial and temporal resolution.
 </div>
 
-## Analytic/visualization/data publication engine
+## Analytic/visualization engine
 
 <div class="centered">
 <img src="https://www.rstudio.com/wp-content/uploads/2016/09/RStudio-Logo-Blue-Gray-125.png" height=150px>
@@ -703,59 +764,74 @@ The Databservatory will empower the evaluation and analyses of data streams at m
 </a>
 </div>
 
-## Features
+---
 
-- Threaded comments from submission to pre-publication review to post-publication commentary
-- Analysis, data, visualizations on the fly (e.g., Shiny)
-- Impact/quality factors computed based on multiple criteria 
+<div class="centered">
+<video width="720" height="450" controls>
+  <source src="mov/social-data-explorer.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
 
-## Problems to solve
-
-## Is data 
-
-- A liability?
-    + <http://news.psu.edu/story/447401/2017/01/25/penn-staters-encouraged-protect-personal-information-data-privacy-day>
-- Or, an asset?
-    + <https://www.nytimes.com/2016/11/20/opinion/the-secret-agenda-of-a-facebook-quiz.html>
+[www.socialexplorer.com](http://www.socialexplorer.com/)
+</div>
 
 ---
 
 <div class="centered">
-<video width="800" height="600" controls>
-  <source src="https://d17uoaaed42daq.cloudfront.net/cavideos/CA+Election.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+<video width="720" height="450" controls>
+  <source src="mov/wordbank-vocabulary.mp4" type="video/mp4">
+Your browser does not support the video tag.
 </video>
 
-<https://cambridgeanalytica.org/>
+[wordbank.stanford.edu](http://wordbank.stanford.edu)
 </div>
 
-<div class="notes">
-Video about Cambridge Analytica.
+---
+
+<div class="centered">
+<video width="720" height="450" controls>
+  <source src="mov/databrary-vol-8-nih-incl-rpt.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+[[@https://doi.org/10.17910/B7CC74]](http://doi.org/10.17910/B7CC74)
 </div>
 
-## Answer
+<!-- [Tamis-LeMonda, 2013](http://doi.org/10.17910/B7CC74) -->
 
-- Depends on who's asking
-- Let's keep academic social and behavioral science 
-    + relevant
-    + in the public domain
-    + serving the general public good
+---
+
+<div class="centered">
+<video width="720" height="450" controls>
+  <source src="mov/neurosynth-happy.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+
+[neurosynth.org](http://neurosynth.org)
+</div>
 
 ## Problems ~~to~~ solved
 
 ## Data harmonization and preparation
 
 - Astro, geo, bio-sciences have common frames of reference, linking variables
+
+## Data harmonization and preparation
+
+- Astro, geo, bio-sciences have common frames of reference, linking variables
 - Essential data linkages in social/behavioral science
-    + People
-    + Locations
+    + **People**
+        - Age, sex/gender, race/ethnicity, ...
+    + **Locations**
         - Lat/Lon or Census Block Group/Tract
-    + Dates and times
-    + Tasks/behaviors
+    + **Dates and times**
+    + **Tasks/behaviors**
 
 ## Respecting privacy
 
-- Asking participants **EXPLICIT** permission to share with researchers for research purposes
+- Asking participants **EXPLICIT** permission to share **with researchers** for **research** and educational purposes
+
+---
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/psu-child-study-ctr-talk-2016-10-28/master/img/databrary-release-levels.jpg" height=500px>
@@ -822,9 +898,41 @@ The Human Connectome Project
 >- Recruiting + data collection + harmonization + mining + sharing + open publication
 >- Shall we build it?
 >- Here and now?
->- After all...
 
-----
+---
+
+<div class="centered">
+<img src="http://cdn2.hubspot.net/hub/134568/file-1208368053-jpg/6-blind-men-hans.jpg" height=500px>
+</div>
+
+<div class="notes">
+We don't have to be the proverbial blind men studying the elephant from Hindu mythology.
+</div>
+
+---
+
+<div class="centered">
+<img src="http://mitrafarmand.com/wp-content/uploads/2015/03/elephant-in-the-room.jpg" height=500px>
+</div>
+
+<div class="notes">
+We can acknowledge the elephant in the room.
+</div>
+
+---
+
+<div class="centered">
+<img src="http://static.neatorama.com/images/2012-09/girl-hugging-elephant.jpg" height=500px>
+</div>
+
+<div class="notes">
+We can acknowledge the elephant in the room.
+</div>
+
+
+## After all...
+
+---
 
 <div class="centered">
 <img src="https://raw.githubusercontent.com/gilmore-lab/psu-stats-smacs-2016-talk/master/img/we_are_penn_state_0.png" width=800px>
