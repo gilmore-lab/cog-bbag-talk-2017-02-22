@@ -45,7 +45,7 @@ output:
 <img src="img/psych-harder-2.jpg" width=800px/>
 </div>
 
----
+## Behavior has multiple, nested dimensions {.smaller}
 
 <div class="centered">
 <video width="600" height="400" controls>
@@ -184,10 +184,10 @@ Adolph, K., Tamis-LeMonda, C. & Gilmore, R.O. (2016). PLAY Project: Webinar disc
     + [Details on OSF](https://osf.io/e81xl/)
 - Significant concerns about reproducibility of biomedical science findings have been raised:  [[@begley_drug_2012]](http://doi.org/10.1038/483531a) and [[@prinz_believe_2011]](http://doi.org/10.1038/nrd3439-c1) 
 
----
+<!-- --- -->
 
-<iframe src="http://www.nature.com/news/cancer-reproducibility-project-releases-first-results-1.21304">
-</iframe>
+<!-- <iframe src="http://www.nature.com/news/cancer-reproducibility-project-releases-first-results-1.21304"> -->
+<!-- </iframe> -->
 
 ## Is there a reproducibility crisis?
 
@@ -195,6 +195,34 @@ Adolph, K., Tamis-LeMonda, C. & Gilmore, R.O. (2016). PLAY Project: Webinar disc
 - Yes, a slight crisis.
 - No, there is no crisis.
 - Don't know.
+
+## Is there a reproducibility crisis?
+
+- <span class="blue">Yes, a significant crisis.</span>
+- Yes, a slight crisis.
+- No, there is no crisis.
+- Don't know.
+
+## Is there a reproducibility crisis?
+
+- Yes, a significant crisis.
+- <span class="blue">Yes, a slight crisis.</span>
+- No, there is no crisis.
+- Don't know.
+
+## Is there a reproducibility crisis?
+
+- Yes, a significant crisis.
+- Yes, a slight crisis.
+- <span class="blue">No, there is no crisis.</span>
+- Don't know.
+
+## Is there a reproducibility crisis?
+
+- Yes, a significant crisis.
+- Yes, a slight crisis.
+- No, there is no crisis.
+- <span class="blue">Don't know.</span>
 
 ## Is there a reproducibility crisis?
 
@@ -270,8 +298,8 @@ See also: <http://demographics.mturk-tracker.com/>
 
 ## Studies are underpowered
 
-- Maxwell, S. E. (2004). The Persistence of Underpowered Studies in Psychological Research: Causes, Consequences, and Remedies. Psychological Methods, 9(2), 147–163. <https://doi.org/10.1037/1082-989X.9.2.147>
-- Ioannidis, J. P. A. (2005). Why Most Published Research Findings Are False. PLOS Medicine, 2(8), e124. <https://doi.org/10.1371/journal.pmed.0020124>
+- Maxwell, S. E. (2004). The Persistence of Underpowered Studies in Psychological Research: Causes, Consequences, and Remedies. *Psychological Methods*, 9(2), 147–163. <https://doi.org/10.1037/1082-989X.9.2.147>
+- Ioannidis, J. P. A. (2005). Why Most Published Research Findings Are False. *PLOS Medicine*, 2(8), e124. <https://doi.org/10.1371/journal.pmed.0020124>
 
 <!-- Scrolling page -->
 <!-- http://stackoverflow.com/q/38260799 -->
@@ -355,6 +383,8 @@ sharing.dat %>%
 ```
 
 [[@vanpaemel_are_2015]](http://doi.org/10.1525/collabra.13)
+
+*American Psychologist*, *70*(6), Sept 2015
 </div>
 
 ## What's at stake?
@@ -394,12 +424,6 @@ Image of despairing angel.
 <img src="img/higginson-munafo.jpg">
 
 [[@higginson_current_2016]](http://10.1371/journal.pbio.2000995)
-</div>
-
-## Psychology is harder than physics {.flexbox .vcenter}
-
-<div class="centered">
-<img src="img/psych-harder-1.jpg" width=800px/>
 </div>
 
 ## Psychology is harder than physics {.flexbox .vcenter}
@@ -502,9 +526,13 @@ The Databrary data library.
 
 ## Video essential for reproducibility
 
-> *Amidst the recent flood of concerns about transparency and reproducibility in the behavioral and clinical sciences, we suggest a simple, inexpensive, easy-to-implement, and uniquely powerful tool to improve the reproducibility of scientific research and accelerate progress--<span class="blue">video recordings of experimental procedures</span>. Widespread use of video for documenting procedures could make moot disagreements about whether empirical replications truly reproduced the original experimental conditions. We call on researchers, funders, and journals to make commonplace the collection and open sharing of video-recorded procedures.*
+> *Amidst the recent flood of concerns about transparency and reproducibility in the behavioral and clinical sciences, we suggest a simple, inexpensive, easy-to-implement, and uniquely powerful tool to improve the reproducibility of scientific research and accelerate progress—<span class="blue">video recordings of experimental procedures</span>. Widespread use of video for documenting procedures could make moot disagreements about whether empirical replications truly reproduced the original experimental conditions. We call on researchers, funders, and journals to make commonplace the collection and open sharing of video-recorded procedures.*
 
 [[@gilmore-adolph-video-2017]](http://osf.io/3kvp7)
+
+## [Clark, T.D. (2017, February 7). Science, lies, and video-taped experiments. *Nature*, *542*(7640).](http://www.nature.com/news/science-lies-and-video-taped-experiments-1.21432)
+
+*If extreme athletes can use self-mounted cameras to record their wildest adventures during mountaintop blizzards, scientists have little excuse not to record what goes on in lab and field studies."*
 
 # REALLY BIG solutions
 
@@ -588,7 +616,7 @@ Connectivity matrix from human connectome project data.
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/HST-SM4.jpeg" height=450px>
 </div>
 
-## Scale {.flexbox .vcenter .smaller}
+## Imagine a Human Behaviorome {.flexbox .vcenter .smaller}
 
 <div class="centered">
 <img src="https://www.nap.edu/cover/9824/450" height=450px>
@@ -944,16 +972,9 @@ We can acknowledge the elephant in the room.
 <img src="https://raw.githubusercontent.com/gilmore-lab/psu-stats-smacs-2016-talk/master/img/we_research_penn_state_0.jpg" width=800px>
 </div>
 
-----
-
-<div class="centered">
-<img src="https://raw.githubusercontent.com/gilmore-lab/psu-stats-smacs-2016-talk/master/img/we_research_penn_state_0.jpg" width=800px>
-</div>
-
-
 ## Stack {.smaller}
 
-This talk was produced in [RStudio](http://rstudio.com) version 1.0.136 on `r Sys.Date()`. The code used to generate the slides can be found at <http://github.com/gilmore-lab/cog-bbab-talk-2017-02-22/>. Information about the R Session that produced the code is as follows:
+This talk was produced in [RStudio](http://rstudio.com) version 1.0.136 on `r Sys.Date()`. The code used to generate the slides can be found at <http://github.com/gilmore-lab/cog-bbag-talk-2017-02-22/>. Information about the R Session that produced the code is as follows:
 
 ```{r session-info}
 sessionInfo()
